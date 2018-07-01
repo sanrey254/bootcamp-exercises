@@ -1,6 +1,9 @@
 function resta (numero1, numero2) {
-    // Escribe tu código aquí
-    
+   if(numero1 === undefined || numero2 === undefined){
+    	return 'Error';
+    }else{
+    	return numero1 - numero2;
+    }  
 }
 
 // NO TOCAR ESTE CÓDIGO O EXPLOTARÁ LA PC EN 10 SEGUNDOS
